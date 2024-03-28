@@ -1,0 +1,17 @@
+{% extends 'homepage.html' %}
+{% block content %}
+
+    <form method="POST">
+        <label for="">Username</label>
+        <input name="username" type="text" placeholder="Enter Username"><br>
+        <label for="">Mobile</label>
+        <input name="mobile" type="number" placeholder="Enter Number"><br>
+        <label for="">Email</label>
+        <input name="email" type="email" placeholder="Enter Email"><br>
+        <label for="">Address</label>
+        <input name="address" type="text" placeholder="Enter Address"><br>
+        <label for="">Password</label>
+        <input name="password" type="password" placeholder="Enter Password"><hr color="black">
+        <button class=" btn btn-outline-primary">submit</button>
+    </form>
+    {% endblock %}
